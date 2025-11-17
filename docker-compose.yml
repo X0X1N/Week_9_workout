@@ -13,7 +13,7 @@ services:
       - FLASK_DEBUG=0
     restart: unless-stopped
     networks:
-      - mmozik_network
+      - mozik_network
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:5000/"]
       interval: 10s
