@@ -65,3 +65,10 @@ def api_environment():
 @app.route('/api/team')
 def api_team():
     return jsonify(load_json("team"))
+
+@app.get("/api/hello")
+def api_hello():
+    return jsonify({"message": "Hello from Week 9 workout!"})
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=5000)

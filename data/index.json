@@ -1,0 +1,31 @@
+{
+  "title": "캡스톤 프로젝트 소개",
+  "project": "Mozik (모자이크 시스템)",
+  "summary": "Mozik은 영상과 이미지 속 민감한 정보를 자동으로 탐지하고 모자이크 처리하여 개인정보와 초상권 침해를 방지하는 AI 기반 보호 시스템이다.",
+  "description": [
+    "영상 속 얼굴, 차량 번호판, 텍스트 등 민감 정보가 노출되는 문제를 해결하기 위해 개발된 프로젝트이다.",
+    "YOLO, MediaPipe, OpenCV 등 다양한 객체 인식 기술을 활용하며, 웹과 앱 환경 모두에서 서비스가 가능하다.",
+    "사용자는 별도의 편집 과정 없이 자동화된 모자이크 기능을 통해 시간과 노동을 절약할 수 있다."
+  ],
+  "api_list": [
+    "/api/subject",
+    "/api/rationale",
+    "/api/features",
+    "/api/environment",
+    "/api/team"
+  ],
+  "team": [
+    {
+      "name": "김하민",
+      "role": "Frontend (앱 UI 구현, 사용자 설정 기능 개발)"
+    },
+    {
+      "name": "이소빈",
+      "role": "Backend (전체 설계 및 구현, 객체 탐지 기능 개발, App-Web 연동)"
+    },
+    {
+      "name": "최정환",
+      "role": "Backend (프로젝트 설계 및 연결, AI 모델 학습)"
+    }
+  ]
+}
