@@ -1,0 +1,17 @@
+{
+    "title": "팀원 구성 및 역할 (Team)",
+    "members": [
+        {
+            "name": "김하민",
+            "role": "Frontend (앱 화면 구현 및 UI 설계, 사용자 설정 기능 개발)"
+        },
+        {
+            "name": "이소빈",
+            "role": "Backend (프로젝트 설계 및 구현, 객체 탐지 기능 구현, Frontend와 Backend 기능 연동)"
+        },
+        {
+            "name": "최정환",
+            "role": "Backend (프로젝트 설계 및 연결, 인공지능 모델 학습)"
+        }
+    ]
+}

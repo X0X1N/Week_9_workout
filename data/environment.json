@@ -1,0 +1,10 @@
+{
+    "title": "구현 환경 (Environment)",
+    "frontend": {
+        "mobile": "Android Studio, Kotlin",
+        "web_service": "HTML, CSS, FastAPI, Flask"
+    },
+    "backend": "Python, Flask, FastAPI",
+    "object_analysis": "Tensorflow, OpenCV, Yolov5, MediaPipe, FFmpeg",
+    "database": "KT Cloud, MySQL"
+}
